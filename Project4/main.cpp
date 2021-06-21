@@ -87,7 +87,7 @@ int main(int argc, char const* argv[]) {
     if (from == 3) {
         cout << 3 << endl;
     }
-    for (ll n = from; n < to; n++) { // We'll try to find prime numbers in range 1 - 1000. 
+    for (ll n = from; n < to; n++) { // We'll try to find prime numbers in range from - to. 
         m_r_test(n, iterations);
     }
     return 0;
