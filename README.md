@@ -7,7 +7,7 @@ It is of historical significance for the research of a polynomial-time determini
 
 Gary L. Miller discovered the test in 1976; Miller's version of the test is deterministic, but its correctness relies on the unproven extended Riemann hypothesis. Michael O. Rabin modified it to obtain an unconditional probabilistic algorithm in 1980.
 
-##Strong Probable Primes
+## Strong Probable Primes
 The property is the following. For a given odd integer n > 2, let’s write n as 2s⋅d + 1 where s and d are positive integers and d is odd. Let’s consider an integer a, called a base, such that 0 < a < n. Then, n is said to be a strong probable prime to base a if one of these congruence relations holds:
 - a^d = 1 (mod n)
 - a^(2^r\*d) = 1 (mod n) for some 0 ≤ r < s.
