@@ -17,10 +17,3 @@ The idea beneath this test is that when n is an odd prime, it passes the test be
 Hence, by contraposition, if n is not a strong probable prime to base a, then n is definitely composite, and a is called a witness for the compositeness of n (sometimes misleadingly called a strong witness).
 
 However, this property is not an exact characterization of prime numbers. If n is composite, it may nonetheless be a strong probable prime to base a, in which case it is called a strong pseudoprime, and a is a strong liar.
-```c++
-    for (ll n = 0; n < 1000; n++) { // We'll try to find prime numbers in range 1 - 1000. 
-        m_r_test(n, iterations);
-    }
-```
-Just simply change 0 and 1000 values to what you want.
-Updates will come soon.
