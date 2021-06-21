@@ -1,6 +1,12 @@
-# prime-finder
-This program find prime numbers in range by using Miller-Rabin primality test
+# Prime Number Finder
+This program find prime numbers in range by using Miller-Rabin primality test. Written by C++
 ## Miller - Rabin Test
+The Miller–Rabin primality test or Rabin–Miller primality test is a probabilistic primality test: an algorithm which determines whether a given number is likely to be prime, similar to the Fermat primality test and the Solovay–Strassen primality test.
+
+It is of historical significance for the research of a polynomial-time deterministic primality test. Its probabilistic variant remains widely used in practice, as one of the simplest and fastest tests known.
+
+Gary L. Miller discovered the test in 1976; Miller's version of the test is deterministic, but its correctness relies on the unproven extended Riemann hypothesis.[1] Michael O. Rabin modified it to obtain an unconditional probabilistic algorithm in 1980.
+
 **Strong probable primes**
 The property is the following. For a given odd integer n > 2, let’s write n as 2s⋅d + 1 where s and d are positive integers and d is odd. Let’s consider an integer a, called a base, such that 0 < a < n. Then, n is said to be a strong probable prime to base a if one of these congruence relations holds:
 - a^d = 1 (mod n)
