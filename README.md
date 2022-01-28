@@ -1,5 +1,5 @@
 # Prime Number Finder
-This program find prime numbers in range by using Miller-Rabin primality test. Written by C++
+This program find prime numbers in range by using Miller-Rabin primality test. Written with C++
 ## Miller - Rabin Test
 The Miller–Rabin primality test or Rabin–Miller primality test is a probabilistic primality test: an algorithm which determines whether a given number is likely to be prime, similar to the Fermat primality test and the Solovay–Strassen primality test.
 
